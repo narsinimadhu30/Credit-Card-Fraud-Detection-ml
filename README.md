@@ -35,11 +35,8 @@ Credit card companies must detect fraudulent transactions quickly so customers a
 
 
 * Total transactions: **284,807**
-* 
 * Fraud transactions: **492**
-* 
 * Fraud percentage: **0.172%**
-* 
 * Highly imbalanced dataset
 
 
@@ -82,30 +79,24 @@ Therefore, this project focuses on using **better evaluation metrics** suitable 
 ## Features
 
 
-
 | Feature  | Description                            |
-
 | -------- | -------------------------------------- |
-
 | V1 – V28 | PCA-transformed anonymized features    |
-
 | Time     | Seconds elapsed between transactions   |
-
 | Amount   | Transaction amount                     |
-
 | Class    | Target variable (0 = Legit, 1 = Fraud) |
 
 
 
-⚠️ Due to confidentiality, original feature names are not available.
+
+Due to confidentiality, original feature names are not available.
 
 
 
 
 
 
-
-**## What I Performed in This Project**
+## What I Performed in This Project
 
 
 
@@ -187,18 +178,13 @@ Since accuracy is misleading in imbalanced datasets, the following metrics **(Cl
 
 
 | Metric                        | Score                                  |
-
 | ----------------------------- | -------------------------------------- |
-
 | Accuracy                      | ~97%                                   |
-
 | Recall (Fraud Detection Rate) | High (Focused on catching fraud)       |
-
 | Precision                     | Moderate (Reduced false alarms)        |
-
 | F1 Score                      | Balanced performance                   |
-
 | AUPRC                         | Strong performance for imbalanced data |
+
 
 
 
